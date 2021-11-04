@@ -11,47 +11,50 @@
     <body>
         <header>
             <!-- Navbar 'pop-up' after interacting with the openslide button -->
-            <button onclick="openSlideMenu()">
-                <!-- temporary icon (will make it myself later )-->
-                <i class="fas fa-bars"></i>
+            <button aria-label="button that opens the navbar upon interaction" onclick="openSlideMenu()">
+                <svg viewBox="0 0 40.53 26.84">
+                    <line  x1="4.33" y1="35.7" x2="4.75" y2="1.7"/>
+                    <line  x1="15.58" y1="35.84" x2="16" y2="1.84"/>
+                    <line  x1="26.83" y1="35.98" x2="27.25" y2="1.98"/>
+                </svg>
             </button>
             <!-- navbar hidden until interacted with the openslide button -->
             <nav tabindex="0">
                 <!-- button to close the nav bar after interacting with the openslidebutton-->
-                <button onclick="closeSlideMenu()">
-                    <!-- temporary icon (will make it myself later )-->
-                    <i class="fas fa-times"></i>
+                <button aria-label="button that closes the navbar upon interaction" onclick="closeSlideMenu()">
+                    <!-- Close icon navbar-->
+                    <svg viewBox="0 0 30.53 36.84" >
+                        <line class="st0" x1="28.53" y1="34.84" x2="2.6" y2="2.71"/>
+                        <line class="st0" x1="2.4" y1="34.45" x2="27.95" y2="2.52"/>
+                    </svg>
                 </button>
-                <img src="assets/logo/logo-orange.png" alt="Words of wis'dam logo">
+                <img src="assets/logo/logo-v6-white.png" alt="logo for asiandam">
                 <ul>
                     <li>
                         <a href="./index.html">home</a>
                     </li>
                     <li>
-                        <a href="./guides.html">guides</a>
-                    </li>
-                    <li>
-                        <a href="./culture.html">culture</a>
-                    </li>
-                    <li>
-                        <a href="./locations.html">locations</a>
+                        <a href="./locations.html">asian spots</a>
                     </li>
                     <li>
                         <a href="./contact.html">contact</a>
                     </li>
                 </ul>    
             </nav>
+            <img alt="white version of the asiandam logo" src="assets/logo/logo-v7.png">
         </header>
         <main>
             <!-- page banner -->
             <header class="pages-header">
+                <img src="assets/guides/banner-guides.JPG">
                 <h1>Guides</h1>
             </header>
             <!-- about guides page -->
             <section>
                 <h2>about</h2>
                 <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the.
+                    Here are some helpful guides that will help you with having an easier time in Amsterdam! 
+                    Understanding the basics can be really important, so take a look and make your time in Amsterdam, just a little bit easier.
                 </p>
             </section>
             <!-- list of guides -->
@@ -59,119 +62,92 @@
                 <h2>useful info</h2>
                 <ul>
                     <li>
-                        <a href="./pages-guides/">
+                        <a href="./pages-guides/ov.html">
                             <figure>
-                                <img alt="" src="./assets/guides/">
+                                <img alt="#" src="./assets/guides/ov.jpg">
                                 <figcaption >
-                                
+                                    ov chipkaart
                                 </figcaption>
                             </figure>
                         </a>
                     </li>     
                     <li>
-                        <a href="./pages-guides/">
+                        <a href="./pages-guides/public-transport.html">
                             <figure>
-                                <img alt="" src="./assets/guides/">
+                                <img alt="#" src="./assets/guides/public-transport.jpg">
                                 <figcaption >
-                                
+                                    public transport
                                 </figcaption>
                             </figure>
                         </a>
                     </li>             
                     <li>
-                        <a href="./pages-guides/">
+                        <a href="./pages-guides/wifi.html">
                             <figure>
-                                <img alt="" src="./assets/guides/">
+                                <img alt="#" src="./assets/guides/free-wifi.png">
                                 <figcaption >
-                                
+                                    free wi-fi
                                 </figcaption>
                             </figure>
                         </a>
                     </li>          
                     <li>
-                        <a href="./pages-guides/">
+                        <a href="./pages-guides/shopping.html">
                             <figure>
-                                <img alt="" src="./assets/guides/">
+                                <img alt="#" src="#">
                                 <figcaption >
-                                
+                                    shopping
                                 </figcaption>
                             </figure>
                         </a>
                     </li>                  
                     <li>
-                        <a href="./pages-guides/">
+                        <a href="./pages-guides/mobile-provider.html">
                             <figure>
-                                <img alt="" src="./assets/guides/">
+                                <img alt="#" src="./assets/guides/sim.jpg">
                                 <figcaption >
-                                
+                                    mobile provider
                                 </figcaption>
                             </figure>
                         </a>
                     </li>                  
                     <li>
-                        <a href="./pages-guides/.html">
+                        <a href="./pages-guides/bicycles.html">
                             <figure>
-                                <img alt="" src="">
-                                <figcaption></figcaption>
+                                <img alt="#" src="./assets/guides/bicycle.jpg">
+                                <figcaption>
+                                    Bicycles
+                                </figcaption>
                             </figure>
                         </a>
                     </li>
-                    <li>
-                        <a href="./pages-guides/.html">
-                            <figure>
-                                <img alt="" src="">
-                                <figcaption></figcaption>
-                            </figure>
-                        </a>
-                    </li>
-
                 </ul>
-            </section>
-            <!-- If user isnt satisifed with the provided info -->
-            <section>
-                <h2>STUCK? LOST? ASK!</h2>
-                <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the.
-
-                </p>
-            </section>
+            </section>           
         </main>
         <footer>
-            <img alt="Words of wisdam" src="assets/logo/logo-blue.png">
+            <img alt="logo for asiandam" src="assets/logo/logo-blue.png">
             <!--contact section-->
             <section>
                 <h2>Couldnt find that one thing? Send me an email!</h2>
-                <a>contact</a>
+                <a class="btn btn-1" href="./contact.html">contact</a>
             </section>
             <!-- footer navigation -->
             <section>
             <h3>Pages</h3>
             <ul>
                 <li>
-                    <a>guides</a>
+                    <a href="./index.html">home</a>
                 </li>
                 <li>
-                    <a>culture</a>
+                    <a href="./locations.html">asian spots</a>
                 </li>
                 <li>
-                    <a>locations</a>
-                </li>
-                <li>
-                    <a>contact</a>
-                </li>
-            </ul>
-            <h3>futher information</h3>
-            <ul>
-                <li>
-                    <a>terms & conditions</a>
-                </li>
-                <li>
-                    <a>privacy policy</a>
+                    <a href="./contact.html">contact</a>
                 </li>
             </ul>
             </section>
             <!-- Copyright -->
-            <small>copyright 2021 WORDS OF WISDAM. all rights reserved</small>
+            <small>copyright 2021 Asiandam. all rights reserved</small>
         </footer>
    </body> 
 </html>

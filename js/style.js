@@ -10,6 +10,9 @@ function openSlideMenu(){
     document.getElementsByTagName('header')[0].style.padding = '20px 5%';
     document.getElementsByTagName('nav')[0].style.width = '0';
     document.getElementsByTagName('nav')[0].style.display = 'none';
-    
+  }
+  // scroll view 
+function scrollview(){
+  var scrollview = document.querySelector('.scrollview');
+  var scrollviewposition = scrollview.getBoundingClientRect().top;
 }
-//end

@@ -5,110 +5,109 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <script src="./js/style.js"></script>
         <title>Home</title>
     </head> 
     <body>
         <header>
-            <img src="" alt="Jpop website logo">
+            <!-- Navbar 'pop-up' after interacting with the openslide button -->
+            <button aria-label="button that opens the navbar upon interaction" onclick="openSlideMenu()">
+                <svg viewBox="0 0 40.53 26.84">
+                    <line  x1="4.33" y1="35.7" x2="4.75" y2="1.7"/>
+                    <line  x1="15.58" y1="35.84" x2="16" y2="1.84"/>
+                    <line  x1="26.83" y1="35.98" x2="27.25" y2="1.98"/>
+                </svg>
+            </button>
+            <!-- navbar hidden until interacted with the openslide button -->
             <nav tabindex="0">
-                <ul role="menubar" aria-haspopup="true">
-                    <li role="menuitem" aria-label="Home">
-                        <a href="./index.html">Home</a>
+                <!-- button to close the nav bar after interacting with the openslidebutton-->
+                <button aria-label="button that closes the navbar upon interaction" onclick="closeSlideMenu()">
+                    <!-- Close icon navbar-->
+                    <svg viewBox="0 0 30.53 36.84" >
+                        <line class="st0" x1="28.53" y1="34.84" x2="2.6" y2="2.71"/>
+                        <line class="st0" x1="2.4" y1="34.45" x2="27.95" y2="2.52"/>
+                    </svg>
+                </button>
+                <img src="assets/logo/logo-v6-white.png" alt="logo for asiandam">
+                <ul>
+                    <li>
+                        <a href="./index.html">home</a>
                     </li>
-                    <li role="menuitem" aria-label="Artists">
-                        <a href="./artists.html">Artists</a>
+                    <li>
+                        <a href="./locations.html">asian spots</a>
                     </li>
-                    <li role="menuitem" aria-label="Videos">
-                        <a href="./videos.html">Videos</a>
-                    </li>
-                    <li role="menuitem" aria-label="About">
-                        <a href="./aboutjpop.html">About</a>
+                    <li>
+                        <a href="./contact.html">contact</a>
                     </li>
                 </ul>    
             </nav>
+            <img alt="white version of the asiandam logo" src="assets/logo/logo-v7.png">
         </header>
         <main>
-        <!-- Home banner -->
-            <header class="index-header">
-                <!-- Banner content -->
-                <section>           
-                    <h1>Locations</h1>  
-                    <p></p>                       
-                </section> 
+            <!-- page banner -->
+            <header class="pages-header">
+                <img alt="#" src="assets/guides">
+                <h1>asian spots</h1>
             </header>
-            <ul>
-                <li>
-                    <a href="./guides/.html">
-                        <figure>
-                            <img alt="" src="">
-                            <figcaption></figcaption>
-                        </figure>
-                    </a>
-                </li>
-                <li>
-                    <a href="./guides/.html">
-                        <figure>
-                            <img alt="" src="">
-                            <figcaption></figcaption>
-                        </figure>
-                    </a>
-                </li>
-                <li>
-                    <a href="./guides/.html">
-                        <figure>
-                            <img alt="" src="">
-                            <figcaption></figcaption>
-                        </figure>
-                    </a>
-                </li>
-                <li>
-                    <a href="./guides/.html">
-                        <figure>
-                            <img alt="" src="">
-                            <figcaption></figcaption>
-                        </figure>
-                    </a>
-                </li>
-                <li>
-                    <a href="./guides/.html">
-                        <figure>
-                            <img alt="" src="">
-                            <figcaption></figcaption>
-                        </figure>
-                    </a>
-                </li>
-                <li>
-                    <a href="./guides/.html">
-                        <figure>
-                            <img alt="" src="">
-                            <figcaption></figcaption>
-                        </figure>
-                    </a>
-                </li>
-            </ul>
+            <!-- about guides page -->
             <section>
-                <h2>Want more?</h2>
-                <a href="">Explore</a>
+                <h2>about</h2>
+                <p>
+                    Here are some helpful guides that will help you with having an easier time in Amsterdam! 
+                    Understanding the basics can be really important, so take a look and make your time in Amsterdam, just a little bit easier.
+                </p>
             </section>
+            <!-- list of guides -->
+            <section id="catagory">
+                <h2>Catagories</h2>
+                <ul>
+                    <li>
+                        <a href="./food.html">
+                            <figure>
+                                <img alt="#" src="assets/guides/sushiandgrill.jpg">
+                                <figcaption >
+                                    food locations
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>     
+                    <li>
+                        <a href="./toko.html"> 
+                            <figure>
+                                <img alt="#" src="assets/guides/">
+                                <figcaption>
+                                    toko's
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>                         
+                </ul>
+            </section>         
         </main>
         <footer>
-            <img alt="" src="footer-logo">
+            <img alt="logo for asiandam" src="assets/logo/logo-blue.png">
+            <!--contact section-->
+            <section>
+                <h2>Couldnt find that one thing? Send me an email!</h2>
+                <a class="btn btn-1" href="./contact.html">contact</a>
+            </section>
+            <!-- footer navigation -->
+            <section>
+            <h3>Pages</h3>
             <ul>
                 <li>
-                    <a></a>
+                    <a href="./index.html">home</a>
                 </li>
                 <li>
-                    <a></a>
+                    <a href="./locations.html">asian spots</a>
                 </li>
                 <li>
-                    <a></a>
-                </li>
-                <li>
-                    <a></a>
+                    <a href="./contact.html">contact</a>
                 </li>
             </ul>
+            </section>
             <!-- Copyright -->
-            <small></small>
+            <small>copyright 2021 WORDS OF WISDAM. all rights reserved</small>
         </footer>
    </body> 
 </html>
