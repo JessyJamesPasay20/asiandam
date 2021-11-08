@@ -72,7 +72,7 @@ main section ul ~ p {text-align: center;margin: 10vw 0;font-size: 6vw;z-index: 1
 #index-header h1 { color: transparent; font-size: 4em;max-width: 249px;-webkit-text-stroke: #1A1A1A 1.5px;text-transform: capitalize;animation: h1-animation .7s ease;}
 #index-header section > p { font-family: 'FilsonPro';color: #F6F6F6;-webkit-text-stroke: #FFF .4px;margin-bottom: 4vh;}
 #index-header a {background-color: white;color: #FF4C4C;-webkit-text-stroke: #FF4C4C 1px;}
-#index-header > p {appearance: none;font-style: normal;margin: 1em 3vw 0em 3vw;width: 80vw;/*! text-align: center; */max-width: 448px;font-size: 18px;}   
+#index-header > p {font-style: normal;margin: 1em 3vw 0em 3vw;width: 80vw;text-align: center;max-width: 448px;font-size: 18px;letter-spacing: 1px;-webkit-text-stroke: #1A1A1A 0.1px;} 
 /* index guides section */
 #index-header ~ section:nth-of-type(1) {/*! background: #FF4C4C; */padding-bottom: 3em;margin: 2vw;}
 #index-header ~ section:nth-of-type(1) h2 {-webkit-text-stroke: #FF4C4C 1px;}
