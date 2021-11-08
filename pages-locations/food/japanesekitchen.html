@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../../css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <script src="../../js/style.js"></script>
+        <title>Home</title>
+    </head> 
+    <body>
+        <header>
+            <!-- Navbar 'pop-up' after interacting with the openslide button -->
+            <button aria-label="button that opens the navbar upon interaction" onclick="openSlideMenu()">
+                <svg viewBox="0 0 40.53 26.84">
+                    <line  x1="4.33" y1="35.7" x2="4.75" y2="1.7"/>
+                    <line  x1="15.58" y1="35.84" x2="16" y2="1.84"/>
+                    <line  x1="26.83" y1="35.98" x2="27.25" y2="1.98"/>
+                </svg>
+            </button>
+            <!-- navbar hidden until interacted with the openslide button -->
+            <nav tabindex="0">
+                <!-- button to close the nav bar after interacting with the openslidebutton-->
+                <button aria-label="button that closes the navbar upon interaction" onclick="closeSlideMenu()">
+                    <!-- Close icon navbar-->
+                    <svg viewBox="0 0 30.53 36.84" >
+                        <line class="st0" x1="28.53" y1="34.84" x2="2.6" y2="2.71"/>
+                        <line class="st0" x1="2.4" y1="34.45" x2="27.95" y2="2.52"/>
+                    </svg>
+                </button>
+                <img src="../../assets/logo/logo-v6-white.png" alt="logo for asiandam">
+                <ul>
+                    <li>
+                        <a href="../../index.html">home</a>
+                    </li>
+                    <li>
+                        <a href="../../guides.html">guides</a>
+                    </li>
+                    <li>
+                        <a href="../../locations.html">asian spots</a>
+                    </li>
+                    <li>
+                        <a href="../../contact.html">contact</a>
+                    </li>
+                </ul>    
+            </nav>
+            <img alt="white version of the asiandam logo" src="../../assets/logo/logo-v7.png">
+        </header>
+        <main>
+            <!-- page banner -->
+            <header class="pages-header">
+                <img alt="storefront of japanese kitchen" src="../../assets/images/japanese-kitchen.JPG">
+                <h1>japanese kitchen</h1>
+            </header>
+            <a href="../../food.html">< back</a>
+            <article>
+                <h2>japanese kitchen</h2>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type 
+                    specimen book. It has survived not only five centuries, but also the leap into 
+                    electronic typesetting,
+                </p>
+                <aside>
+                    <img alt="sidways image of japanese kitchen storefront" src="../../assets/images/japanese-kitchen2.JPG">
+                </aside>
+                <a class="btn-2" href="./locations.html">
+                    find
+                    <svg viewBox="0 0 41.4 35.5">
+                        <polyline class="st0" points="14,12.1 29.7,7.5 28.8,23.9 "/>
+                        <line class="st0" x1="27.9" y1="10.2" x2="11.2" y2="29.1"/>
+                    </svg>
+                </a>
+            </article>
+            <section>
+                <h2>what they offer</h2>
+                <ul>
+                    <li>japanese section</li>
+                    <li>chinese section</li>
+                    <li>regular import</li>
+                </ul>
+                <a class="btn-2" href="./locations.html">
+                    more
+                    <svg viewBox="0 0 41.4 35.5">
+                        <polyline class="st0" points="14,12.1 29.7,7.5 28.8,23.9 "/>
+                        <line class="st0" x1="27.9" y1="10.2" x2="11.2" y2="29.1"/>
+                    </svg>
+                </a>
+            </section>
+            
+        </main>
+        <footer>
+            <img alt="logo for asiandam" src="../../assets/logo/logo-blue.png">
+            <!--contact section-->
+            <section>
+                <h2>Couldnt find that one thing? Send me an email!</h2>
+                <a class="btn btn-1" href="../../contact.html">contact</a>
+            </section>
+            <!-- footer navigation -->
+            <section>
+            <h3>Pages</h3>
+            <ul>
+                <li>
+                    <a href="../../index.html">home</a>
+                </li>
+                <li>
+                    <a href="../../guides.html">guides</a>
+                </li>
+                <li>
+                    <a href="../../locations.html">asian spots</a>
+                </li>
+                <li>
+                    <a href="../../contact.html">contact</a>
+                </li>
+            </ul>
+            </section>
+            <!-- Copyright -->
+            <small>copyright 2021 WORDS OF WISDAM. all rights reserved</small>
+        </footer>
+   </body> 
+</html>

@@ -2,13 +2,13 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
         <script src="./js/style.js"></script>
         <title>Home</title>
     </head> 
     <body>
+      
         <header>
             <!-- Navbar 'pop-up' after interacting with the openslide button -->
             <button aria-label="button that opens the navbar upon interaction" onclick="openSlideMenu()">
@@ -53,19 +53,22 @@
                 <!-- Banner content -->
                     <section class="scrollview">           
                         <h1>New country? No problem!</h1>  
-                        <p>Find out what kind of Asian, Amsterdam has to offer!</p>
+                        <p>Find out what kind of Asian.. Amsterdam has to offer!</p>
+                      
                         <a class="btn btn-1" href="./locations.html">Spots</a>                       
                     </section> 
+                    <p>
+                        As an Asian international student, you'll have to live in places you might not be too familiar with.
+                    </p>
+                    <p>
+                        This website provides you with info to make your time here in Holland, a lot easier. And hopefully, you
+                        don't have to change the way you had done things at home!
+                    </p>
+                    <p>
+                       Have fun, and discover more about Asiandam !
+                    </p>
             </header>
             <!-- about the website -->
-            <section>
-                <h2>about</h2>
-                <p>
-                    As an international student, you'll have to live in places you might not be too familiar with.
-                    This website provides you with all necessary info that you might need, during your stay with us in Holland. 
-                    We hope you'll enjoy your time here.
-                </p>
-            </section>
             <!--sneak peek of the guides page-->
             <section>
                 <h2>guides</h2>
@@ -81,6 +84,10 @@
                                     Netherlands. If you carry an OV-chipkaart with you, you no longer
                                     need to think about strip tickets or metro tickets-
                                 </p>
+                                <svg viewBox="0 0 41.4 35.5">
+                                    <polyline class="st0" points="14,12.1 29.7,7.5 28.8,23.9 "/>
+                                    <line class="st0" x1="27.9" y1="10.2" x2="11.2" y2="29.1"/>
+                                </svg>
                             </section>
                         </a>
                     </li>
@@ -95,6 +102,10 @@
                                     and tram routes, metro lines and ferry links. The authority that operates
                                     them is called GVB which stands for-
                                 </p>
+                                <svg viewBox="0 0 41.4 35.5">
+                                    <polyline class="st0" points="14,12.1 29.7,7.5 28.8,23.9 "/>
+                                    <line class="st0" x1="27.9" y1="10.2" x2="11.2" y2="29.1"/>
+                                </svg>
                           </section>
                         </a>
                     </li>
@@ -109,48 +120,72 @@
                                    cafés, bars and restaurants. University buildings will also provide you
                                    with free Wi-Fi. Access to the internet is-
                                 </p>
+                                <svg viewBox="0 0 41.4 35.5">
+                                    <polyline class="st0" points="14,12.1 29.7,7.5 28.8,23.9 "/>
+                                    <line class="st0" x1="27.9" y1="10.2" x2="11.2" y2="29.1"/>
+                                </svg>
                           </section>
                         </a>
                     </li>
                 </ul>
-                <a class="btn btn-2" href="./guides.html">explore</a>
+                <a class="btn-2" href="./locations.html">
+                    explore
+                    <svg viewBox="0 0 41.4 35.5">
+                        <polyline class="st0" points="14,12.1 29.7,7.5 28.8,23.9 "/>
+                        <line class="st0" x1="27.9" y1="10.2" x2="11.2" y2="29.1"/>
+                    </svg>
+                </a>
             </section>
             <!-- sneak peek for the culture page-->
-            <section>
+            <section class="circle-animation">
                 <h2>Asian Spots</h2>
+                
                 <ul>
                     <li>
-                        <a href="./pages-locations/toko/joyce.html">
+                        <a href="./pages-locations/food/japanesekitchen.html">
                             <figure>
-                                <img alt="" src="assets/guides/samsam.jpg">
-                                <figcaption >
-                                    sumsum
+                                <img alt="image of the japanese kitchen storefront" src="assets/images/japanese-kitchen.JPG">
+                                <figcaption>
+                                    japanese kitchen
+                                    <h3>food spot</h3>
                                 </figcaption>
                             </figure>
                         </a>
                     </li>     
                     <li>
-                        <a href="./pages-locations/food/sushiandgrill.html""> 
+                        <a href="./pages-locations/food/vattenramen.html">
                             <figure>
-                                <img alt="cheese stack on eachother at a market stand" src="assets/guides/sushiandgrill.jpg">
+                                <img alt="#" src="./assets/images/vatten-ramen.JPG">
                                 <figcaption>
-                                    Sushi & Grill
+                                    vatten ramen
+                                    <h3>food spot</h3>
                                 </figcaption>
                             </figure>
                         </a>
-                    </li>              
+                    </li>           
                     <li>
-                        <a href="./pages-locations/food/sumo.html">
+                        <a href="./pages-locations/toko/dun-yong.html">
                             <figure>
-                                <img alt="front picture of the famous restaurant sumo" src="assets/guides/sumo.jpg">
+                                <img alt="dunyong sideways storefront image" src="./assets/images/dong-yung-front-left.JPG">
                                 <figcaption>
-                                    Sumo
+                                    dun yong
+                                    <h3>toko</h3>
                                 </figcaption>
                             </figure>
                         </a>
-                    </li>                  
+                    </li>            
                 </ul>
-                <a class="btn btn-2" href="./locations.html">Find more</a>
+                <p>
+                    Find out what kind of Asian, Amsterdam has to offer! 
+                    From great places to eat, to shops with Asian ingredients. 
+                </p>
+                <a class="btn-2" href="./locations.html">
+                    Find more
+                    <svg viewBox="0 0 41.4 35.5">
+                        <polyline points="14,12.1 29.7,7.5 28.8,23.9 "/>
+                        <line x1="27.9" y1="10.2" x2="11.2" y2="29.1"/>
+                    </svg>
+                </a>
             </section>
         </main>
         <footer>
@@ -179,7 +214,7 @@
             </ul>
             </section>
             <!-- Copyright -->
-            <small>copyright 2021 WORDS OF WISDAM. all rights reserved</small>
+            <small>copyright 2021 Asiandam. all rights reserved</small>
         </footer>
    </body> 
 </html>
