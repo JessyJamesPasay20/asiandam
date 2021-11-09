@@ -136,7 +136,13 @@ article aside {width: 80vw;height: 33vh;position: relative;overflow: hidden;marg
 article ~ section img, article img {position: absolute;width: 500px;transform: translateY(-34%);height: 349px;object-fit: cover;}   
 main article, main article ~ section {padding: 5vw;width: 90vw;margin: auto;align-items: baseline;}
 main article ~ section p:nth-of-type(1) { text-align: left;padding: 0;margin-bottom: 1em;}
-main article h2, main article ~ section h2 {-webkit-text-stroke: #FF4C4C 2px;color: #FF4C4C;text-align: revert;margin-top: 0;margin-bottom: 1em;font-size: 1.5em;padding: 0;}
+main article h2, main article ~ section h2 {-webkit-text-stroke: #FF4C4C 1px;
+    color: transparent;
+    text-align: revert;
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-size: 1.8em;
+    padding: 0;}
 main article h3, main section h3 {-webkit-text-stroke: #1A1A1A 1px;color: #1A1A1A;margin: 1em 0 0.3em 0;font-size: 1.4em;letter-spacing: 1px;}
 main article ~ section ul {flex-direction: column;list-style: disclosure-closed;padding-left: 2em;}
 main article ~ section ul li {text-transform: capitalize;padding: 0.2em;-webkit-text-stroke: #1A1A1A 1px;color: #1A1A1A;}
