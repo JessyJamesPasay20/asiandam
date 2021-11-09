@@ -11,19 +11,20 @@ function openSlideMenu(){
     document.getElementsByTagName('nav')[0].style.width = '0';
     document.getElementsByTagName('nav')[0].style.display = 'none';
   }
-  
-window.onscroll = function() {scrollFunction()};
+// SCOLL REVEAL ANIMATION
+window.addEventListener('scroll', reveal);
+function reveal(){
+  var reveals = document.querySelectorAll('.reveal')
 
-function scrollFunction() {
-  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-    document.getElementsByTagName('header').style.position = "fixed";
-    document.getElementsByTagName('header').style.background = "#e6e6e6f0";
-    document.getElementsByTagName('header').style.clipPath ="polygon(0 0, 100% 0, 100% 100%, 70% 100%, 50% 70%, 30% 100%, 0 100%)";
-  }
-  else {
-    document.getElementsByTagName('header').style.position = "relative";
-    document.getElementsByTagName('header').style.background = "transparent";
-    document.getElementsByTagName('header').style.clipPath ="none";
-    
+  for(var i = 0; i < reveals.length; i++) {
+    var windowheight = window.innerHeight;
+    var revealtop = reveals[i].getBoundingClientRect().top;
+    var revealpoint = 100;
+
+    if(revealtop < windowheight - revealpoint){
+      reveals[i].classList.add('active');
+    }
+    else {
+    }
   }
 }
