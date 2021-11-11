@@ -11,7 +11,7 @@ function openSlideMenu(){
     document.getElementsByTagName('nav')[0].style.width = '0';
     document.getElementsByTagName('nav')[0].style.display = 'none';
   }
-// SCOLL REVEAL ANIMATION
+// SCROLL REVEAL ANIMATION
 window.addEventListener('scroll', reveal);
 function reveal(){
   var reveals = document.querySelectorAll('.reveal')
